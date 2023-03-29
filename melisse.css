@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mynerve', cursive;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin-top: 110px;
+    background-image: url('static/background-image/sleepinglady.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.circular--portrait { 
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    float: left;
+} 
+
+.circular--portrait img { 
+    top: 50%;
+    left: 80%;
+    width: 800px; 
+    height: 800px; 
+    width: 100%; 
+    height: auto; 
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 40px black;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 30px black;
+}
+
+.images {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+
+.box::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 30px black; 
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+form {
+    color: white;
+    padding-top: 500px;
+}
+    
